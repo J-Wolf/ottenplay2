@@ -25,4 +25,5 @@ public class WorkersController extends Controller {
         worker.save();
         return  redirect(routes.WorkersController.index());
     }
+
 }

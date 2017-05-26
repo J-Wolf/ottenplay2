@@ -78,7 +78,7 @@ Seq[Any](format.raw/*1.25*/("""
 object otten extends otten_Scope0.otten
               /*
                   -- GENERATED --
-                  DATE: Fri May 26 11:21:51 CEST 2017
+                  DATE: Fri May 26 14:46:34 CEST 2017
                   SOURCE: C:/Users/Julian/Documents/GitHub/playOtten/app/views/otten.scala.html
                   HASH: 2b2ea5073b6514c112617b3d445f41bce03076ea
                   MATRIX: 749->1|867->24|897->29|918->42|956->43|988->49|1034->70|1066->94|1105->96|1141->106|1491->429|1529->451|1568->452|1622->478|1688->517|1701->521|1732->531|1822->590|1872->612|1969->692|1982->697|2021->698|2058->708|2168->788

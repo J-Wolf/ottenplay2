@@ -74,7 +74,7 @@ Seq[Any](format.raw/*1.70*/("""
 object addProject extends addProject_Scope0.addProject
               /*
                   -- GENERATED --
-                  DATE: Fri May 26 11:21:51 CEST 2017
+                  DATE: Fri May 26 14:46:34 CEST 2017
                   SOURCE: C:/Users/Julian/Documents/GitHub/playOtten/app/views/addProject.scala.html
                   HASH: 002970f9726e21100664ec6cd34aa06decd85f69
                   MATRIX: 787->1|950->69|980->74|1003->89|1041->90|1073->96|1277->273|1292->279|1387->364|1427->365|1469->380|1484->386|1597->477|1639->492|1654->498|1780->602|1822->617|1837->623|2151->916|2193->930|2384->1090|2421->1100

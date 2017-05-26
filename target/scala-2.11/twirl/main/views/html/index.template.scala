@@ -81,7 +81,7 @@ Seq[Any](format.raw/*1.56*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Fri May 26 11:21:51 CEST 2017
+                  DATE: Fri May 26 14:46:34 CEST 2017
                   SOURCE: C:/Users/Julian/Documents/GitHub/playOtten/app/views/index.scala.html
                   HASH: 0797c29839ccce403b23635277fbf41a46da1394
                   MATRIX: 765->1|914->55|944->60|964->72|1003->74|1033->78|1076->96|1110->122|1149->124|1183->132|1445->367|1488->394|1527->395|1569->409|1669->478|1709->490|1786->550|1798->554|1837->555|1870->561|1973->634|2006->637

@@ -69,7 +69,7 @@ Seq[Any](format.raw/*1.4*/("""
 object navigation extends navigation_Scope0.navigation
               /*
                   -- GENERATED --
-                  DATE: Fri May 26 11:21:51 CEST 2017
+                  DATE: Fri May 26 14:46:34 CEST 2017
                   SOURCE: C:/Users/Julian/Documents/GitHub/playOtten/app/views/navigation.scala.html
                   HASH: d676c9697dae3595ded8fd3e0541ac87b1ffa552
                   MATRIX: 748->1|844->3|874->7|938->45|952->51|995->74|1079->132|1093->138|1140->165|1229->227|1244->233|1291->259|1379->320|1394->326|1439->350|1525->409|1540->415|1589->443
