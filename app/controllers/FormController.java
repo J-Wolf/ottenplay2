@@ -33,4 +33,9 @@ public class FormController extends Controller {
         return ok(views.html.addWorker.render(workerForm));
     }
 
+    public Result addCustomer(){
+        Form<Customer> customerForm = formFactory.form(Customer.class);
+        return ok(views.html.addCustomer.render(customerForm));
+    }
+
 }

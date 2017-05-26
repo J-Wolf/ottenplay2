@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Julian/Documents/GitHub/playOtten/conf/routes
-// @DATE:Fri May 26 13:42:43 CEST 2017
+// @DATE:Fri May 26 14:27:12 CEST 2017
 
 
 package router {

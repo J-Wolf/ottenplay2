@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Julian/Documents/GitHub/playOtten/conf/routes
-// @DATE:Fri May 26 13:42:43 CEST 2017
+// @DATE:Fri May 26 14:27:12 CEST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -15,7 +15,7 @@ import _root_.play.libs.F
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:32
+  // @LINE:34
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +23,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:32
+    // @LINE:34
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -35,7 +35,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:25
+  // @LINE:26
   class ReverseCustomersController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -43,7 +43,17 @@ package controllers.javascript {
     }
 
   
-    // @LINE:25
+    // @LINE:27
+    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CustomersController.create",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "customers"})
+        }
+      """
+    )
+  
+    // @LINE:26
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CustomersController.index",
       """
@@ -55,7 +65,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:21
+  // @LINE:22
   class ReverseWorkersController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -63,7 +73,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:22
+    // @LINE:23
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.WorkersController.create",
       """
@@ -73,7 +83,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:21
+    // @LINE:22
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.WorkersController.index",
       """
@@ -85,7 +95,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:28
+  // @LINE:30
   class ReverseUserController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -93,7 +103,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:28
+    // @LINE:30
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UserController.create",
       """
@@ -105,7 +115,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:11
+  // @LINE:12
   class ReverseHomeController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -113,7 +123,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:12
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
       """
@@ -163,9 +173,19 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:9
+    def addCustomer: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.FormController.addCustomer",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "customer"})
+        }
+      """
+    )
+  
   }
 
-  // @LINE:14
+  // @LINE:15
   class ReverseProjectsController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -173,7 +193,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:15
+    // @LINE:16
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ProjectsController.create",
       """
@@ -183,7 +203,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:14
+    // @LINE:15
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ProjectsController.index",
       """
@@ -195,7 +215,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:18
+  // @LINE:19
   class ReverseOttenController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -203,7 +223,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:18
+    // @LINE:19
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.OttenController.index",
       """

@@ -6,6 +6,7 @@
 GET     /                           controllers.FormController.loginUser()
 GET     /project                    controllers.FormController.addProject()
 GET     /worker                     controllers.FormController.addWorker()
+GET     /customer                   controllers.FormController.addCustomer()
 
 #Home
 GET     /home                       controllers.HomeController.index()
@@ -23,6 +24,7 @@ POST    /workers                    controllers.WorkersController.create()
 
 #Costumers
 GET     /customers                  controllers.CustomersController.index()
+POST    /customers                  controllers.CustomersController.create()
 
 #User
 POST    /user                       controllers.UserController.create()
